@@ -1,0 +1,13 @@
+/* TODO: Adicionar estilos personalizados */
+  
+  .card-style:hover {
+    background-color: rgba(221, 11, 11, 0.418);  /* Altere para a cor que você deseja */
+    transform: scale(1.05);   /* Um leve aumento no card para o efeito de hover */
+    transition: all 0.3s ease; /* Suaviza a transição do efeito */
+    border: solid rgb(209, 7, 7) 3px;
+  }
+
+  img {
+    height: 400px;
+  }
+
