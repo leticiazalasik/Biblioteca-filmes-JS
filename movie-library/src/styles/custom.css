@@ -11,3 +11,10 @@
     height: 400px;
   }
 
+  #pagination button {
+    color: white;
+    background-color: black;
+    border: solid black;
+    margin-bottom: 2%;
+    margin-top: 1%;
+  }
