@@ -38,7 +38,7 @@ export async function searchMovies(query) { // Função assíncrona para buscar 
   }
 }
 
-export async function getMovieDetails(imdbID) { // Função assíncrona para obter detalhes completos de um filme com base no ID do IMDB
+export async function getMovieDetails(imdbID) { /// Função assíncrona para obter detalhes completos de um filme específico com base no ID do IMDB
   try {
     const response = await axios.get(BASE_URL, { // Faz uma requisição GET para a URL base
       params: {
