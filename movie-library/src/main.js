@@ -101,3 +101,5 @@ searchButton.addEventListener('click', async () => {
     alert('Por favor, insira um termo de busca.');
   }
 });
+
+console.log(searchMovies("marvel"));
